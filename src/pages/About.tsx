@@ -32,34 +32,19 @@ const About = () => {
       {/* Hero Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid lg:grid-cols-3 gap-8 items-start">
-            <div className="lg:col-span-1">
-              <img 
-                src={aboutHero} 
-                alt="Business professionals discussing" 
-                className="w-full h-80 object-cover rounded-xl shadow-lg"
-              />
-            </div>
-            <div className="lg:col-span-1 text-center space-y-6">
-              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground leading-tight">
-                Building trust through financial excellence
-              </h1>
-              <p className="text-muted-foreground text-lg leading-relaxed">
-                Accruefy simplifies complex finances into clear strategies, helping your business grow with confidence.
-              </p>
-              <Button asChild size="lg">
-                <Link to="/contact">Contact Us</Link>
-              </Button>
-            </div>
-            <div className="lg:col-span-1 space-y-4">
-              <img 
-                src={teamMeeting} 
-                alt="Team meeting" 
-                className="w-full h-80 object-cover rounded-xl shadow-lg"
-              />
-              
-            </div>
-          </div>
+          <div className="flex justify-center">
+  <div className="max-w-3xl text-center space-y-6">
+    <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground leading-tight">
+      Building trust through financial excellence
+    </h1>
+    <p className="text-muted-foreground text-lg leading-relaxed">
+      Accruefy simplifies complex finances into clear strategies, helping your business grow with confidence.
+    </p>
+    <Button asChild size="lg">
+      <Link to="/contact">Contact Us</Link>
+    </Button>
+  </div>
+</div>
         </div>
       </section>
 

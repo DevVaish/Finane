@@ -61,7 +61,7 @@ const About = () => {
                 alt="Team collaboration" 
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
-              <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-xl p-6 shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-background text-background rounded-xl p-6 shadow-xl">
                 <div className="text-center">
                   <p className="font-display text-4xl font-bold">90%</p>
                   <p className="text-sm opacity-80">Saving</p>
@@ -128,7 +128,7 @@ const About = () => {
               <h2 className="font-display text-3xl md:text-4xl font-semibold">
                 Get expert accounting assistance now
               </h2>
-              <p className=" text-lg text-center mb-12 max-w-2xl mx-auto">
+              <p className=" text-base text-left mb-12 max-w-2xl mx-auto">
                  Get expert accounting assistance now and take control of your financial future with confidence. At Accruefy, we provide tailored accounting and tax solutions that simplify your finances, maximize savings, and support sustainable business growth—so you can focus on what matters most.              </p>
               <Button asChild variant="secondary" size="lg" className="bg-card text-foreground hover:bg-card/90">
                 <Link to="/pricing">Get Started</Link>

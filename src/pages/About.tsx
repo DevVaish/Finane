@@ -50,24 +50,6 @@ const About = () => {
   </div>
 </section>
 
-      {/* Partners Section */}
-      <section className="py-12 bg-muted">
-        <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground text-center mb-8">
-            Partnered Brands, Proven Success
-          </h2>
-          <div className="flex flex-wrap justify-center items-center gap-12">
-            {partners.map((partner, index) => (
-              <div 
-                key={index} 
-                className="text-muted-foreground/50 font-display text-xl font-medium"
-              >
-                Logo{partner.replace("Partner ", "")}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Journey Section */}
       <section className="py-16 bg-background">

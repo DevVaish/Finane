@@ -109,7 +109,7 @@ const Index = () => {
                 Simplifying accounting for your business
               </h1>
               <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
-                We are transforming numbers into financial success with expert-led strategies, personalized support, and unmatched precision.
+                We transform numbers into financial success through expert-led strategies, personalized support, and unmatched precision.
               </p>
               <Button asChild size="lg" className="mt-4 transition-all duration-300 hover:scale-105 hover:shadow-lg">
                 <Link to="/contact">Contact Us</Link>

@@ -52,7 +52,7 @@ const About = () => {
 
 
       {/* Journey Section */}
-      <section className="py-16 bg-primary">
+      <section className="py-16 bg-primary ">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -72,10 +72,10 @@ const About = () => {
               <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground">
                 Our journey towards financial excellence
               </h2>
-              <p className="text-muted-foreground text-lg leading-relaxed">
+              <p className="text-primary-foreground text-lg leading-relaxed">
                 Accruefy began with a vision to make accounting transparent and dependable. We've earned the trust of businesses by combining accuracy with integrity in all we do.
               </p>
-              <p className="text-muted-foreground text-lg leading-relaxed">
+              <p className="text-primary-foreground text-lg leading-relaxed">
                 We go beyond numbers—helping clients understand finances, plan strategically, and stay ahead. With expert guidance and smart tools, we turn complexity into clarity.
               </p>
             </div>

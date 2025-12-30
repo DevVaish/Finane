@@ -61,7 +61,7 @@ const About = () => {
                 alt="Team collaboration" 
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
-              <div className="absolute -bottom-6 -right-6 bg-background text-primary rounded-xl p-6 shadow-xl">
+            <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-xl p-6 shadow-xl">
                 <div className="text-center">
                   <p className="font-display text-4xl font-bold">90%</p>
                   <p className="text-sm opacity-80">Saving</p>

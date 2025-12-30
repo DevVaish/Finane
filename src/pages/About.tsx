@@ -61,7 +61,7 @@ const About = () => {
                 alt="Team collaboration" 
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
-              <div className="absolute -bottom-6 -right-6 bg-background text-background rounded-xl p-6 shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-background text-primary rounded-xl p-6 shadow-xl">
                 <div className="text-center">
                   <p className="font-display text-4xl font-bold">90%</p>
                   <p className="text-sm opacity-80">Saving</p>
@@ -69,13 +69,13 @@ const About = () => {
               </div>
             </div>
             <div className="space-y-6">
-              <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground">
+              <h2 className="font-display text-3xl md:text-4xl font-semibold text-background">
                 Our journey towards financial excellence
               </h2>
-              <p className="text-primary-foreground text-lg leading-relaxed">
+              <p className="text-background text-lg leading-relaxed">
                 Accruefy began with a vision to make accounting transparent and dependable. We've earned the trust of businesses by combining accuracy with integrity in all we do.
               </p>
-              <p className="text-primary-foreground text-lg leading-relaxed">
+              <p className="text-background text-lg leading-relaxed">
                 We go beyond numbers—helping clients understand finances, plan strategically, and stay ahead. With expert guidance and smart tools, we turn complexity into clarity.
               </p>
             </div>

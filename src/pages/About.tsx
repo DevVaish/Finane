@@ -68,7 +68,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-18">
               <h2 className="font-display text-3xl md:text-4xl font-semibold text-background">
                 Our journey towards financial excellence
               </h2>

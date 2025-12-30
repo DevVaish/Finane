@@ -51,8 +51,27 @@ const About = () => {
 </section>
 
 
+     {/* Partners Section */}
+      <section className="py-12 bg-muted">
+        <div className="container mx-auto px-4 lg:px-8">
+          <h2 className="font-display text-2xl md:text-3xl font-semibold text-foreground text-center mb-8">
+            Partnered Brands, Proven Success
+          </h2>
+          <div className="flex flex-wrap justify-center items-center gap-12">
+            {partners.map((partner, index) => (
+              <div 
+                key={index} 
+                className="text-muted-foreground/50 font-display text-xl font-medium"
+              >
+                Logo{partner.replace("Partner ", "")}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Journey Section */}
-      <section className="py-16 bg-primary ">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -61,21 +80,21 @@ const About = () => {
                 alt="Team collaboration" 
                 className="w-full h-96 object-cover rounded-xl shadow-lg"
               />
-            <div className="absolute -bottom-6 -right-6 bg-primary-foreground text-primary rounded-xl p-6 shadow-xl">
+              <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground rounded-xl p-6 shadow-xl">
                 <div className="text-center">
                   <p className="font-display text-4xl font-bold">90%</p>
                   <p className="text-sm opacity-80">Saving</p>
                 </div>
               </div>
             </div>
-            <div className="space-y-18">
-              <h2 className="font-display text-3xl md:text-4xl font-semibold text-background">
+            <div className="space-y-6">
+              <h2 className="font-display text-3xl md:text-4xl font-semibold text-foreground">
                 Our journey towards financial excellence
               </h2>
-              <p className="text-background text-lg leading-relaxed">
+              <p className="text-muted-foreground text-lg leading-relaxed">
                 Accruefy began with a vision to make accounting transparent and dependable. We've earned the trust of businesses by combining accuracy with integrity in all we do.
               </p>
-              <p className="text-background text-lg leading-relaxed">
+              <p className="text-muted-foreground text-lg leading-relaxed">
                 We go beyond numbers—helping clients understand finances, plan strategically, and stay ahead. With expert guidance and smart tools, we turn complexity into clarity.
               </p>
             </div>

@@ -57,11 +57,7 @@ const About = () => {
                 alt="Team meeting" 
                 className="w-full h-36 object-cover rounded-xl shadow-lg"
               />
-              <img 
-                src={teamMeeting} 
-                alt="Business discussion" 
-                className="w-full h-36 object-cover rounded-xl shadow-lg"
-              />
+              
             </div>
           </div>
         </div>
